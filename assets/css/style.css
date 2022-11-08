@@ -1,0 +1,182 @@
+/*==================================
+* Author        : "ThemeSine"
+* Template Name : Sinemkt  HTML Template
+* Version       : 1.0
+==================================== */
+
+/*==================================
+font-family: 'Roboto', sans-serif;
+==================================== */
+
+/*=========== TABLE OF CONTENTS ===========
+1.  General css 
+2.  Navbar
+3.  Welcome-hero
+4.  Populer-post
+5.  New-arrivals  
+6.  Sofa-coolection
+7.  Features
+8.  Blog
+9.  Clients
+10. News-letter
+11. Footer
+==========================================*/
+
+/*-------------------------------------
+		1.General css 
+--------------------------------------*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* *:hover {
+  color: #eb5e4a;
+} */
+
+body {
+  background-color: #f8f9fd;
+  color: #a09e9c;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+}
+
+/*-------------------------------------
+		2.Navbar css 
+--------------------------------------*/
+
+.navbar-brand {
+  font-family: roboto slab;
+  font-weight: 900;
+  font-size: 30px;
+  background: -webkit-linear-gradient(20deg, #e53a61 0%, #eb5e4a 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.fixed-top {
+  background-color: white;
+  top: -40px;
+  transform: translateY(40px);
+
+  transition: transform 0.3s;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 20%);
+}
+
+.nav-link {
+  color: #5f5b57;
+  font-family: Roboto;
+  font-weight: 500;
+  block-size: auto;
+}
+
+.nav-link:after {
+  content: "";
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: #eb5e4a;
+  transition: 300ms;
+}
+
+.nav-link:hover:after {
+  width: 100%;
+}
+.nav-link:hover {
+  color: #eb5e4a;
+}
+
+.lnr {
+  font-size: 20px;
+  color: #5f5b57;
+  text-decoration: none;
+}
+
+.lnr:hover {
+  font-size: 20px;
+  color: #eb5e4a;
+  text-decoration: none;
+  transition: 0.15s;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  width: 120px;
+}
+
+@media only screen and (max-width: 990px) {
+  .icons {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  .icons :hover {
+    background-color: #eb5e4a;
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .icons a {
+    background-color: white;
+    border-radius: 10px;
+    padding: 6px;
+  }
+}
+
+/*-------------------------------------
+		3.Welcome-hero
+--------------------------------------*/
+
+.box {
+  height: 1700px;
+  width: 100%;
+  background-color: white;
+}
+
+.single-welcome-hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 620px;
+}
+
+.btn.btn-light {
+  color: #5f5b57;
+}
+
+.btn {
+  font-family: roboto;
+  font-size: 16px;
+}
+
+.carousel-inner img {
+  height: 500px;
+  object-fit: cover;
+}
+
+/* animate */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  height: 690px;
+}
+
+@media only screen and (max-width: 990px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    visibility: hidden;
+  }
+}
+
+.carousel-control:hover {
+  color: #5f5b57;
+}
