@@ -34,7 +34,7 @@ function scrollFunction() {
     mybutton.style.transition = "0.3s";
   } else {
     mybutton.style.transform = "translateY(70px)";
-    mybutton.style.opacity = "1";
+    mybutton.style.opacity = "0";
    
     
   }

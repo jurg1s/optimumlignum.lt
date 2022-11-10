@@ -6,13 +6,11 @@
 /*=========== TABLE OF CONTENTS ===========
 1.  General css 
 2.  Navbar
-3.  Welcome-hero
-4.  Populer-post
-5.  New-arrivals  
-6.  Sofa-coolection
-7.  Features
-8.  Blog
-9.  Clients
+3.  Welcome-hero  
+4.  Produktai
+5.  galerija
+6.  Clients
+7.  igyvendinti projektai
 10. News-letter
 11. Footer
 ==========================================*/
@@ -27,6 +25,7 @@
   padding: 0;
 }
 
+
 /* *:hover {
   color: #eb5e4a;
 } */
@@ -37,9 +36,15 @@ body {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
 }
+:any-link  {
+  color: #a09e9c;
+
+
+}
+
 
 /*-------------------------------------
-		2.Navbar css 
+		2.Navbar  
 --------------------------------------*/
 
 .navbar-brand {
@@ -161,21 +166,19 @@ body {
 
 /* buttons */
 
-
+/* 
 a:active {
-  background-color: yellow;
-}
 
+  background-color:black;
+ 
+}
+ */
 
 /*-------------------------------------
 		3.Welcome-hero
 --------------------------------------*/
 
-.box {
-  height: 1700px;
-  width: 100%;
-  background-color: white;
-}
+
 
 .single-welcome-hero {
   display: flex;
@@ -218,5 +221,35 @@ a:active {
 }
 
 
+/*-------------------------------------
+		11.Footer
+--------------------------------------*/
 
 
+.footer .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:50px;
+  
+}
+
+
+.footer .container p {
+  margin: 0;
+}
+/*-------------------------------------
+		TEST !!!!
+--------------------------------------*/
+
+.box-white {
+  height: 1700px;
+  width: 100%;
+  background-color: white;
+}
+.box-gray {
+  height: 1700px;
+  width: 100%;
+
+
+}
