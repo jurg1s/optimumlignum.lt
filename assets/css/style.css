@@ -70,24 +70,14 @@ body {
   block-size: auto;
 }
 
-.nav-link:after {
-  content: "";
-  width: 0px;
-  height: 2.5px;
-  display: block;
-  background: #eb5e4a;
-  transition: transform 0.3s ease-out;
-  transform-origin: bottom right;
-  transform: scaleX(0);
-  width: 100%;
-}
 
-.nav-link:hover:after {
-  transform-origin: bottom left;
-  transform: scaleX(1);
-}
+
+
 .nav-link:hover {
   color: #eb5e4a;
+ 
+  
+
 }
 
 .lnr {
@@ -187,7 +177,6 @@ a:active {
   height: 500px;
   object-fit: cover;
 }
-
 /* Carousel-prev-next ICONS */
 .carousel-control-prev,
 .carousel-control-next {
@@ -263,6 +252,14 @@ section {
 
 .navbar .container .collapse li.active a {
   color: #eb5e4a;
+  text-decoration: underline 2px;
+  text-underline-offset: 0.5em;
+  transition-delay: 0.1s;
 
-  width: 100%;
+
 }
+
+
+
+/* /////////////// */
+
