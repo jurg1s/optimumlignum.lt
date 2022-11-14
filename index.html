@@ -21,10 +21,7 @@
       href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto+Slab:wght@700;800;900&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+   
   </head>
   <body>
     <!-------------------------------------
@@ -48,7 +45,10 @@
         <div class="collapse navbar-collapse" id="main_nav">
           <ul class="navbar-nav ms-auto gap-3">
             <li class="paslaugos">
-              <a class="nav-link" href="#paslaugos">Mūsų Paslaugos </a>
+              
+                
+              <a class="nav-link" href="#paslaugos">Mūsų Paslaugos  </a>
+             
             </li>
             <li class="produktai">
               <a class="nav-link" href="#produktai">Produktai </a>
@@ -63,11 +63,12 @@
               <a class="nav-link" href="#kontaktai">Kontaktai </a>
             </li>
           </ul>
+          
           <div class="navbar-nav ms-auto">
             <div class="icons">
               <a href="#" class="lnr lnr-magnifier"></a>
               <a href="#" class="lnr lnr-user"></a>
-              <a href="#" class="lnr lnr-cart"></a>
+              <a href="/checkout.html" class="lnr lnr-cart"></a>
             </div>
           </div>
         </div>
@@ -85,6 +86,7 @@
             <div class="col-sm-7">
               <div class="single-welcome-hero">
                 <div class="welcome-hero-txt">
+                  
                   <h4>Lorem, ipsum dolor.</h4>
                   <h2>Lorem ipsum dolor sit amet.</h2>
                   <p>
@@ -212,18 +214,256 @@
     <section id="paslaugos">
       <h1>Paslaugos</h1>
     </section>
-    <section id="produktai">
-      <h1>produktai</h1>
+
+      
+      <!-- <div class="row row-cols-1 row-cols-md-3 g-4  m-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="/assets/images/DOMUS-Chair-Artek-32189-relfa5a63f2.webp" class="card-img-top" alt="/assets/images/DOMUS-Chair-Artek-32189-relfa5a63f2.webp">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/assets/images/DOMUS-Chair-Artek-32189-relfa5a63f2.webp" class="card-img-top" alt="/assets/images/DOMUS-Chair-Artek-32189-relfa5a63f2.webp">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a short card.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/assets/images/DOMUS-Chair-Artek-32189-relfa5a63f2.webp" class="card-img-top" alt="/assets/images/DOMUS-Chair-Artek-32189-relfa5a63f2.webp">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/assets/images/DOMUS-Chair-Artek-32189-relfa5a63f2.webp" class="card-img-top" alt="/assets/images/DOMUS-Chair-Artek-32189-relfa5a63f2.webp">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
     </section>
-    <section id="galerija">
-      <h1>galerija</h1>
+    <section id="galerija" class="gallery min-vh-100 ">
+      <div class="container-lg" >
+        <div class="row gy-4 row-cols-2  row-cols-md-3  " >
+          <div class="col ">
+            <img src="assets/images/Domus-Chair-black-leather-upholstery_WEB-1977827.jpg" class="gallery-item rounded" alt="gallery">
+          </div>
+          <div class="col">
+            <img src="assets/images/Domus-Chair-black-leather-upholstery_WEB-1977827.jpg" class="gallery-item rounded" alt="gallery">
+          </div>
+          <div class="col">
+            <img src="assets/images/Domus-Chair-black-leather-upholstery_WEB-1977827.jpg" class="gallery-item rounded" alt="gallery">
+          </div>
+          <div class="col">
+            <img src="assets/images/Domus-Chair-black-leather-upholstery_WEB-1977827.jpg" class="gallery-item rounded" alt="gallery">
+          </div>
+          <div class="col">
+            <img src="assets/images/Domus-Chair-black-leather-upholstery_WEB-1977827.jpg" class="gallery-item rounded" alt="gallery">
+          </div>
+          <div class="col">
+            <img src="assets/images/Domus-Chair-black-leather-upholstery_WEB-1977827.jpg" class="gallery-item rounded" alt="gallery">
+          </div>
+
+<!-- Modal -->
+<div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <img src="/assets/images/alvaro.png" class="modal-img" >
+      </div>
+    </div>
+  </div>
+</div>
+ 
+        </div>
+      </div>
     </section>
     <section id="apiemus">
-      <h1>apie mus</h1>
+      <div class="apie">
+        <img src="/assets/images/happy-carpenters.webp">
+      </div>
     </section>
-    <section id="kontaktai">
-      <h1>Kontaktai</h1>
+    <section id="kontaktai" class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <div class="wrapper">
+              <div class="row g-0 mb-5">
+                <div class="col-md-7">
+                  <div class="contact-wrap w-100 p-md-5 p-4">
+                    <h3 class="mb-4">usisiekite su mumis</h3>
+             
+                    <form
+                      method="POST"
+                      id="contactForm"
+                      name="contactForm"
+                      class="contactForm"
+                    >
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label class="label" for="name">Pilnas Vardas</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              name="name"
+                              id="name"
+                              placeholder="vardas"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label class="label " for="email"
+                              >Pašto adresas</label
+                            >
+                            <input
+                              type="email"
+                              class="form-control"
+                              name="email"
+                              id="email"
+                              placeholder="@"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="label" for="subject">Tema</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              name="subject"
+                              id="subject"
+                              placeholder="tema"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-12 pb-4">
+                          <div class="form-group ">
+                            <label class="label " for="#">Žinutė</label>
+                            <textarea
+                              name="message"
+                              class="form-control"
+                              id="message"
+                              cols="30"
+                              rows="4"
+                              placeholder="žinutė"
+                            ></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <input
+                              type="submit"
+                              value="Siųsti žinutę"
+                              class="btn btn-success"
+                            />
+                            <div class="submitting"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-5 d-flex align-items-stretch ">
+                  <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=723&amp;height=723&amp;hl=en&amp;q=54.62756701757252, 25.063941264694577&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="dbox w-100 text-center">
+                    <div
+                      class="icon d-flex align-items-center justify-content-center"
+                    >
+                      <span class="contact-icon lnr lnr-map-marker"></span>
+                    </div>
+                    <div class="text">
+                      <p >
+                        <span>Adresas:</span ><a href="https://goo.gl/maps/unhNeXeDb8P9Gx8y6">Zigmantiškių gatvė 15, Vilnius, Vilniaus m. sav.</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="dbox w-100 text-center">
+                    <div
+                      class="icon d-flex align-items-center justify-content-center"
+                    >
+                      <span class="contact-icon  lnr lnr-phone-handset"></span>
+                    </div>
+                    <div class="text">
+                      <p>
+                        <span>Telefonas:</span>
+                        <a href="tel://+37060652001">+37060652001</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="dbox w-100 text-center">
+                    <div
+                      class="icon d-flex align-items-center justify-content-center"
+                    >
+                      <span class="contact-icon lnr lnr-inbox"></span>
+                    </div>
+                    <div class="text">
+                      <p>
+                        <span>Paštas:</span>
+                        <a
+                          href=""
+                          ><span
+                            class="email">hi@optimumlignum.lt</span
+                          ></a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="dbox w-100 text-center">
+                    <div
+                      class="icon d-flex align-items-center justify-content-center"
+                    >
+                      <span class="contact-icon  lnr lnr-earth"></span>
+                    </div>
+                    <div class="text">
+                      <p><span>Internetinis puslapis</span> <a href="#">www.optimumlignum.lt</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+
+<!-- 
+    <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=723&amp;height=723&amp;hl=en&amp;q=54.62756701757252, 25.063941264694577&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><style>.mapouter{position:relative;text-align:right;width:100%;height:100%;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:100%;}.gmap_iframe {height:100%!important;}</style></div></div> -->
+
+    <!-------------------------------------
+		10.kontaktai
+-------------------------------------->
+
+
+
     <!-------------------------------------
 		3.footer
 -------------------------------------->
@@ -233,7 +473,7 @@
         <div class="hm-footer-copyright">
           <p>
             &copy;copyright. designed and developed by
-            <a href="https://www.jurgis-web/">jurgis-web.tech</a>
+            <a href="https://www.jurgis-web.tech/">jurgis-web.tech</a>
           </p>
           <!--/p-->
         </div>
