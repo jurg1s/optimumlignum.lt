@@ -253,7 +253,7 @@ a:active {
 /* ////////////////////// */
 
 section {
-  height: 100vh;
+  
   width: 100%;
   background-color:transparent;
   display: flex;
@@ -262,15 +262,15 @@ section {
  
 }
 #paslaugos {
-  background-color: #384353
-  ;
+  background-color: #384353;
+  height: 100vh;
 }
 #produktai {
-  background-color: whitesmoke;
+  background-color: #F7F7F7;
 
 }
 #galerija {
-  background-color: #e8edf0;
+  background-color: #F7F7F7;
 }
 #apiemus {
   background-color: #6081c3;
@@ -278,14 +278,15 @@ section {
 #kontaktai {
   background-color: white;
   
+  
 }
 
 .navbar .container .collapse li.active a {
   color: #eb5e4a;
   
-  background: linear-gradient(to bottom, transparent 85%, #eb5e4a 85%,#eb5e4a 95%,transparent 95%);
-  transition: opacity 1s linear;
-
+text-decoration: underline;
+text-underline-offset: 5px;
+text-decoration-thickness:2px;
   
 
   
@@ -294,10 +295,6 @@ section {
 
 }
 
-.navbar .container .collapse li a{
-background-color: transparent;
-
-}
 
 
 .contact-wrap{
@@ -372,8 +369,8 @@ background-color: transparent;
 .col img{
   
   max-width: 100%;
-  cursor:pointer;
-  box-shadow: 0 0  15px rgba(0,0,0,0.1);
+  cursor:zoom-in;
+ 
  
 }
 
@@ -409,6 +406,31 @@ background-color: transparent;
 .nav2{
   background-color: #6081c3;
 }
+
+.gallery-item{
+  cursor:zoom-in;
+}
+
+.card{
+  border: none;
+  box-shadow: 0 0  15px rgba(0,0,0,0.1);
+}
+
+.gmap_iframe{
+
+  border-left: 1px solid #ced4da;
+
+}
+
+@media only screen and (max-width: 991px) {
+  .gmap_iframe{
+    height: 500px;
+    border-top: 1px solid #ced4da;
+    border-left: 0px solid #ced4da;
+
+  }
+}
+
 
 
 
