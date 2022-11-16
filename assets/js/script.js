@@ -1,4 +1,4 @@
-//----------navbar----------//
+//----- navbar -----//
 
 document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", function () {
@@ -15,36 +15,30 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-//-----scroll-top button-----//
+//----- scroll-top_button -----//
 
 let mybutton = document.getElementById("myBtn");
 
-window.onscroll = function () {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  if (
-    document.body.scrollTop > 200 ||
-    document.documentElement.scrollTop > 200
-  ) {
-    mybutton.style.display = "block";
-    mybutton.style.opacity = "1";
-    mybutton.style.transform = "translateY(0px)";
-    mybutton.style.transition = "0.3s";
-  } else {
-    mybutton.style.transform = "translateY(70px)";
-    mybutton.style.opacity = "0";
-  }
-}
+document.addEventListener("DOMContentLoaded", function () {
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 200) {
+      mybutton.style.display = "block";
+      mybutton.style.opacity = "1";
+      mybutton.style.transform = "translateY(0px)";
+      mybutton.style.transition = "0.3s";
+    } else {
+      mybutton.style.transform = "translateY(70px)";
+      mybutton.style.opacity = "0";
+    }
+  });
+});
 
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
-  mybutton.style.transition = "transform 0.3s;";
 }
 
-// nav-link acive  //
+//----- nav-link_acive -----//
 
 const sections = document.querySelectorAll("section");
 const navLi = document.querySelectorAll("nav .container ul li");
@@ -66,15 +60,14 @@ window.onscroll = () => {
   });
 };
 
-
-
-// galerija //
+//----- galerija -----//
 document.addEventListener("click", function (e) {
-  if(e.target.classList.contains("gallery-item"))  {
+  if (e.target.classList.contains("gallery-item")) {
     const src = e.target.getAttribute("src");
     document.querySelector(".modal-img").src = src;
-    const myModal = new bootstrap.Modal(document.getElementById('gallery-modal'));
+    const myModal = new bootstrap.Modal(
+      document.getElementById("gallery-modal")
+    );
     myModal.show();
   }
 });
-
