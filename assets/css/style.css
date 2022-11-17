@@ -212,6 +212,7 @@ margin: 0;
 
 .carousel-control:hover {
   color: #5f5b57;
+
 }
 
 /*-------------------------------------
@@ -380,12 +381,15 @@ section {
   text-align: center;
   padding: 10px 0px;
   border-radius: 5px;
-
+  text-decoration:none;
 }
 .read_bt a:hover{
   
   color: #ffffff;
   background-color:#eb5e4a;
+  transition: 0.15s ease-in-out;
+
+  
 }
 
 /*-------------------------------------
