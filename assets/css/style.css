@@ -139,13 +139,43 @@ body {
 --------------------------------------*/
 
 
+.container .hero .carousel{
+  display: flex;
+  height: 80%;
+  align-content: space-between;
+  /* align-content: space-between; */
+}
+.carousel-indicators{
+margin: 0;
+}
+@media only screen and (max-width: 991px) {
+  .carousel-indicators{
+    visibility: hidden;
+  }
+}
+.hero{
+  height: 850px;
+  display: flex;
+  align-items: center;
+}
+/* ////////////////// */
+
+
 .single-welcome-hero {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: 850px;
-  
+}
+.col-lg-5 img {
+  height: 600px;
+  object-fit:cover;
+}
+@media only screen and (max-width: 991px) {
+  .col-lg-5 img {
+    object-fit:contain;
+  }
 }
 
 .welcome-hero-txt .btn {
@@ -153,10 +183,6 @@ body {
   font-size: 16px;
 }
 
-.carousel-inner img {
-  height: 500px;
-  object-fit: cover;
-}
 /* Carousel-prev-next ICONS */
 .carousel-control-prev,
 .carousel-control-next {
@@ -204,7 +230,7 @@ section {
 }
 #paslaugos {
   background-color: white;
-  height: 100vh;
+ 
 }
 #produktai {
   background-color: transparent;
@@ -247,8 +273,120 @@ section {
     border-left: 0px solid #ced4da;
   }
 }
+/*-------------------------------------
+		*paslaugos
+--------------------------------------*/
 
 
+
+.services_section{
+  width: 100%;
+  float: left;
+  padding-top: 190px;
+  padding-bottom: 190px;
+ 
+  
+  
+}
+.services_section2{
+  width: 100%;
+  float: left;
+  padding-top: 90px;
+}
+.services_taital{
+  width: 100%;
+  float: left;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #383838;
+}
+.services_section2{
+  width: 100%;
+  float: left;
+}
+.furnitures_text {
+  width: 100%;
+  float: left;
+  font-size: 24px;
+  color: #383838;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+
+}
+.services_section2{
+  width: 100%;
+  float: left;
+}
+.many_taital{
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.icon_1{
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 90px;
+  font-family: 'Noto Emoji', sans-serif;
+  color: black;
+}
+
+.dummy_text{
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 10px;
+  
+}
+.read_bt_main{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.read_bt {
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+}
+.read_bt a{
+  width: 100%;
+  float: left;
+  font-size: 18px;
+ 
+  background-color: #f8f9fd;
+
+;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 5px;
+
+}
+.read_bt a:hover {
+  
+  color: #ffffff;
+  background-color:#eb5e4a;
+}
+
+/*-------------------------------------
+		*Produktai
+--------------------------------------*/
+
+.col img {
+  max-width: 100%;
+  cursor: zoom-in;
+  
+  
+}
 
 /*-------------------------------------
 		*galerija
@@ -257,15 +395,13 @@ section {
 .gallery {
   background-color: #5f5b57;
 }
-.col img {
-  max-width: 100%;
-  cursor: zoom-in;
-}
 
 #gallery-modal .modal-img {
   width: 100%;
 }
-
+/*-------------------------------------
+    *Apie
+--------------------------------------*/
 .apie {
   display: flex;
   justify-content: center;
@@ -278,27 +414,19 @@ section {
   object-fit: cover;
 }
 
-.nav1 {
-  background-color: #e53a61;
-}
-
-.nav2 {
-  background-color: #6081c3;
-}
-
-
-
-
-
-
 
 /*-------------------------------------
 		▄▀▄▀▄▀▄▀▄▀▄*TEST start ▄▀▄▀▄▀▄▀▄▀▄
 --------------------------------------*/
 
 
+
+
+
+
+
+
+
 /*-------------------------------------
 		▄▀▄▀▄▀▄▀▄▀▄ TEST end ▄▀▄▀▄▀▄▀▄▀▄
 --------------------------------------*/
-
-
