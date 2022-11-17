@@ -38,7 +38,9 @@ body {
 /*-------------------------------------
 		 *Navbar  
 --------------------------------------*/
-
+/* .navbar-nav .icons{
+  
+} */
 .navbar-brand {
   font-family: roboto Slab;
   font-weight: 900;
@@ -138,7 +140,18 @@ body {
 		*Welcome-hero
 --------------------------------------*/
 
-
+.carousel-control{
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 6px;
+}
+.carousel-control:hover{
+  background-color:#eb5e4a;
+  color: white!important;
+}
+.carousel-control.active{
+  background-color: #6081c3;
+}
 .container .hero .carousel{
   display: flex;
   height: 80%;
@@ -357,21 +370,19 @@ section {
   width: 100%;
   float: left;
   margin-top: 10px;
+ 
 }
 .read_bt a{
   width: 100%;
   float: left;
   font-size: 18px;
- 
   background-color: #f8f9fd;
-
-;
   text-align: center;
   padding: 10px 0px;
   border-radius: 5px;
 
 }
-.read_bt a:hover {
+.read_bt a:hover{
   
   color: #ffffff;
   background-color:#eb5e4a;
@@ -381,11 +392,22 @@ section {
 		*Produktai
 --------------------------------------*/
 
+
+.text-center .btn{
+  background-color:#f8f9fd;
+}
+.text-center .btn:hover{
+  
+  color: #ffffff;
+  background-color:#eb5e4a;
+}
+.card{
+  border-radius: 0%;
+border: 0;
+}
 .col img {
   max-width: 100%;
   cursor: zoom-in;
-  
-  
 }
 
 /*-------------------------------------
