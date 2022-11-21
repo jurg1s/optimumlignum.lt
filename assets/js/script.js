@@ -62,11 +62,11 @@ window.onscroll = () => {
 
 //----- galerija -----//
 document.addEventListener("click", function (e) {
-  if (e.target.classList.contains("gallery-item")) {
+  if (e.target.classList.contains("produktai-item")) {
     const src = e.target.getAttribute("src");
     document.querySelector(".modal-img").src = src;
     const myModal = new bootstrap.Modal(
-      document.getElementById("gallery-modal")
+      document.getElementById("produktai-modal")
     );
     myModal.show();
   }
@@ -74,24 +74,3 @@ document.addEventListener("click", function (e) {
 
 
 
-
-// Example starter JavaScript for disabling form submissions if there are invalid fields
-(function () {
-  'use strict'
-
-  window.addEventListener('load', function () {
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.getElementsByClassName('needs-validation')
-
-    // Loop over them and prevent submission
-    Array.prototype.filter.call(forms, function (form) {
-      form.addEventListener('submit', function (event) {
-        if (form.checkValidity() === false) {
-          event.preventDefault()
-          event.stopPropagation()
-        }
-        form.classList.add('was-validated')
-      }, false)
-    })
-  }, false)
-}())
